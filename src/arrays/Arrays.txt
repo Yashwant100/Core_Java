@@ -1,0 +1,32 @@
+Arrays : Array is a ordered collection of an elements stored at contiguous memory location which is fixed in size 
+         and indexing stats from 0 to n-1.
+       - if we are working with primitives types then it will store elements at contiguous memory location but when 
+         working with reference type (Integer, String) it totally depends upon JVM as objects are created in the heap.
+         
+How to create and intialize an array ?
+- To create and intializean an arraywe have to specify data type and name along with square brackets and then we ccan 
+  specify its size using new operator.
+  
+Difference between Array and ArrayList ?
+- Generally arrays are fixen in size and it has efficient memory structure while ArrayList are dynamic in size it can
+  grow automatically as elements are increasing but it incure extra memory.
+  
+How to find length of an array ?
+- The most simplest way to find the length of an array is we can use its inbuilt property "length".
+
+Difference between length and length() ?
+-length is a final variable for arrays used to count the no. of elements present in the array while length() is a final
+ method is used to count the no. of character present in the String.
+ 
+Difference between sorting and searching ?
+- Searching is the process of finding an element from the datastructure while Sorting is the processof arranging
+data elements in a specific order either in asscending or descending ordered.
+
+-time and space complexity for the arrays operation remain mostly o(1) or o(n).
+
+how to compare two arrays ?
+for elements comparision we will be using .equals() method .
+
+
+
+  
