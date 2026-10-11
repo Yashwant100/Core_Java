@@ -1,0 +1,31 @@
+String : A String is a collection of character which is defined in java.lang pacakages and it is immutable in nature.
+         it provides various number of methods used to manipulate data in String.
+         
+String is most commonly used data type in java thats why it is immutable in nature i. means once the String object crteated 
+its value cannot be changed which promotes : Security, Better memory optimization, String pool optimization.
+
+What is String Pool in java?
+- String pool is a special memory area in java heap memory which store the unique copy of String literal and allow JVm 
+ to reuse that literal to Save extra memory.
+ 
+What is Null Pointer Exception :
+A Null Pointer Exception in java is runtime exception which occur when our program tries to access the object reference 
+which has no object or maybe a null pointed to it.exception
+
+What is toString() method?
+toString() Method is defined in the java.lang.object class which returns the String representation of an object and
+it can be overridden as per our requirement.
+
+Format Specifier is a placeholder which starts with % and can be used with printf() and scanf() method to tell the compilor
+which kind of data to be print and store. for example %s, %d, %c, %f etc
+
+The + operator can concatenate strings and automatically converts non-string objects to strings, but it creates a new String 
+object each time due to immutability.
+ 
+ About StringBuilder : StringBuilder is a class in java.lang package but is is mutable in nature we can modify the
+ contents of StringBuilder object and when we want performance based execution then we will be using StringBuilde class
+ and it is commonly used when we have to change String data frequently.
+ 
+ 
+ 
+ 
