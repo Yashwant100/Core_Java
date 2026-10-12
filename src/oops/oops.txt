@@ -1,0 +1,62 @@
+OOP's : OOP's Stand for object oriented programming it is a programming paradigm based on the concept of object and 
+        class which promotes improve code reusability, which make program easy to main and understand.
+        
+What is a class ?
+-A class is a blueprint for the object which contains properties and behaviour for the method and it is used to create 
+ datatype for the user.
+ 
+What is object ?
+-An object is an instance of class that is used to access the properties and methods of the class defined inside a class.
+
+What is constructor?
+A constructor is a special method of the class that is automatically invoked when an object is created. it is primiraily 
+used to initialize the objects data members
+-Constructor name must be same as the class name.
+-it doesn't have any return type.
+-it is automatically invoked when a object is created.
+-it helps to intialize the object at the time of creation.
+
+There are 4 types of constructor : Defualt constructor, Parametrized Constructor, copy constructor, private constructor.
+
+4 pillors of the OOP's
+- Abstraction : Abstraction in java is mechanism of hiding implementation details and showing only the essentials
+ feature of an object. for example when we apply brakes in the vehicle we don't know about how does it happens.
+ - We can achieve abstraction using abstract classes and interfaces.
+ 
+Encapsulation : It is the process of wrapping data and methods into single unit also it opposes the direct access to the data
+members of the class which improves the security of the data and can be accessed suing getter and setter method.
+
+Inheritance : it is the core concept of OOp's which allows a class to inherit the properties and method from its parent class.
+we can aquire the properties through the "extends" keyword.
+
+Polymorphism : Polymorphism means many form when a single entity can behave differently in different situation.
+java allows same method and object to behave differently according to context.
+- Achieved through method overloading and overriding.
+
+this keyword : this keyword in java used to differentiate between the local variable and instance variable of the class 
+also used to reference to the current object and also used to access another constructor of the same class.
+
+Final Keyword in java used to make variables constant, prevent method to be override and prevent classes to be extending
+it can be used along with the classes, variable and methods.
+
+Garbage collector : GC in java is an automatic memory management process performed by the JVM. it helps in removing unused
+and unreachable objects from the heap memory which improves memory utilization and application performance. java developer
+don't required to perform manually it will be handeled by the JVM itself
+
+finalize() method : used to perform some cleanup activities before an objectis being taken by garbage collector for the destrying
+purpose.
+
+What is packages ?
+-A Pacakage is a mechanism which is used to group related classes, interfaces so that there will be no conflicting between them
+also it will help us to better code organizing avoid naming conflict and control access.
+
+Java import statement : it allows us to bring all the class into be used that is written earlier we simply can access that classes
+into our present code by using import statement.
+
+static keyword : static keyword in java is used to declare the members of the class at the class level so that it will 
+be shared among all the objects of the class commonly. and we should access this memebers using class name. 
+- if we will try to access a non static memeber inside the static context then we will get error like cannot be used in static context
+- 
+
+
+ 
