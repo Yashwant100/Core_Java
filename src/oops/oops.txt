@@ -56,7 +56,25 @@ into our present code by using import statement.
 static keyword : static keyword in java is used to declare the members of the class at the class level so that it will 
 be shared among all the objects of the class commonly. and we should access this memebers using class name. 
 - if we will try to access a non static memeber inside the static context then we will get error like cannot be used in static context
-- 
 
+super keyword : The super keyword in Java refers to the immediate parent class object and is used to access parent class 
+                variables, methods, and constructors, especially when they are overridden or hidden in the subclass.
 
+Single Inheritance : When a child class inherit the properties and behaviour from only single parent class then it is known
+                     as single inheritance.
+                     
+multi level inheritance : when a class inherit the properties and behaviour from the parent  which itself inherit the properties from 
+another class allowing the most bottom class to access the properties and behaviour from all the ancesstor.
+
+Heirarchical inheritance : Hierarchical inheritance occurs when one superclass serves as the base for multiple subclasses. 
+                           Each subclass inherits the common properties and methods of the parent class
+ 
+ Hybrid Inheritance : Hybrid inheritance in Java is a combination of two or more inheritance types—such as single, 
+ multilevel, or hierarchical—but it is implemented using classes and interfaces because Java does not support multiple
+ inheritance through the classes.
+ 
+ Note : we can not override the static method in child class.becuase static stuff is related to the class and overriding
+ is related to the Object stuff.
+ 
+ 
  
